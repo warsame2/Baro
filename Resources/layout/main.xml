@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+          android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lin1"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginBottom="0.0dp"
+            
+                >
+   
+        <ImageButton
+             android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/img1"
+            android:background="@drawable/cidah"
+            android:contentDescription="description"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="0.0dp" 
+        
+            />
+
+   
+
+
+
+
+    
+
+        <ImageButton
+           
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/img2"
+            android:background="@drawable/qado"
+            android:contentDescription="description"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="0.0dp" 
+            />
+    
+   
+    
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/img3"
+            android:background="@drawable/dharka"
+            android:contentDescription="description"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="0.0dp" 
+            
+            />
+    
+   
+   
+        
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/img4"
+            android:background="@drawable/bus"
+            android:contentDescription="description"
+            android:layout_marginRight="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginBottom="0.0dp" 
+            
+            />
+    
+   
+    
+
+
+
+
+
+
+
+
+         </RelativeLayout>
+
+
+    </ScrollView>
+</LinearLayout>
